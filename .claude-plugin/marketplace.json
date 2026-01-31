@@ -1,0 +1,27 @@
+{
+  "name": "etr-claude-skill",
+  "owner": {
+    "name": "xonack",
+    "email": "jens@vaut.xyz"
+  },
+  "metadata": {
+    "description": "Erotetic Theory of Reasoning skill for Claude Code — question-driven reasoning with formal fallacy detection"
+  },
+  "plugins": [
+    {
+      "name": "erotetic-reasoning",
+      "source": ".",
+      "description": "Question-driven reasoning based on Koralus's Erotetic Theory. Enumerate alternatives, raise questions, check equilibrium before concluding.",
+      "version": "1.0.0",
+      "category": "reasoning",
+      "tags": [
+        "reasoning",
+        "erotetic",
+        "cognitive-science",
+        "decision-making",
+        "fallacy-detection",
+        "audit"
+      ]
+    }
+  ]
+}

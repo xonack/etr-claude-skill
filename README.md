@@ -10,18 +10,30 @@ This skill operationalizes that framework as a reusable Claude Code skill with t
 
 ## Installation
 
-Clone into your Claude Code skills directory:
+### Via Plugin Marketplace (Recommended)
+
+Add the marketplace and install the plugin from within Claude Code:
+
+```shell
+/plugin marketplace add xonack/etr-claude-skill
+/plugin install erotetic-reasoning@etr-claude-skill
+```
+
+The skill will be available immediately.
+
+### Manual Installation
+
+Clone directly into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/xonack/etr-claude-skill.git ~/.claude/skills/Erotetic
 ```
 
-The skill will be available immediately in your next Claude Code session.
+If installing manually, copy the `skills/erotetic/` directory contents into `~/.claude/skills/Erotetic/`.
 
 ### Requirements
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI
-- A `~/.claude/skills/` directory (standard Claude Code setup)
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI (v1.0.33+)
 
 ## Workflows
 

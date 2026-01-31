@@ -1,0 +1,19 @@
+{
+  "name": "erotetic-reasoning",
+  "description": "Question-driven reasoning skill based on Koralus's Erotetic Theory of Reasoning (Oxford). Two workflows: Reason (enumerate-question-filter-equilibrium pipeline) and Audit (fallacy detection + stability testing).",
+  "version": "1.0.0",
+  "author": {
+    "name": "xonack"
+  },
+  "homepage": "https://github.com/xonack/etr-claude-skill",
+  "repository": "https://github.com/xonack/etr-claude-skill",
+  "license": "MIT",
+  "keywords": [
+    "reasoning",
+    "erotetic",
+    "cognitive-science",
+    "llm-reasoning",
+    "fallacy-detection",
+    "decision-making"
+  ]
+}
